@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Solution { 
     public boolean isCycleDfs(List<List<Integer>> adj, boolean[] vis, boolean[] inRecur, int node){
         vis[node]=true;
         inRecur[node]=true;
